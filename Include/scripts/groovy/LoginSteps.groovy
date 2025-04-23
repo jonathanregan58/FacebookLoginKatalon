@@ -164,7 +164,7 @@ class LoginSteps {
 	//https://id-id.facebook.com/two_step_verification/authentication
 	//}
 	@Then("User is directed to captcha verification page")
-	def pesan_appears_on_facebook_login_page_in_bahasa_indonesia_then2(String string) {
+	def user_is_directed_to_captcha_verification_page() {
 		WebUI.waitForElementPresent(findTestObject('Verification/header'), 120)
 		WebUI.verifyElementPresent(findTestObject('Verification/header'), 120)
 		String result2 = WebUI.getText(findTestObject('Verification/header'))

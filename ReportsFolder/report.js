@@ -10,12 +10,12 @@ formatter.feature({
   ]
 });
 formatter.scenarioOutline({
-  "name": "User menginputkan email yang ada dan password yang benar",
+  "name": "User menginputkan email yang ada dan password yang salah",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@tag5"
+      "name": "@tag4"
     }
   ]
 });
@@ -32,7 +32,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "User is successfully logged in on Facebook in Bahasa Indonesia",
+  "name": "User is directed to captcha verification page",
   "keyword": "Then "
 });
 formatter.examples({
@@ -48,14 +48,14 @@ formatter.examples({
     },
     {
       "cells": [
-        "jonathan.regan58@yahoo.com",
-        "Jregan58@_"
+        "hahahihi@gmail.com",
+        "abcdefgh"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "User menginputkan email yang ada dan password yang benar",
+  "name": "User menginputkan email yang ada dan password yang salah",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -63,7 +63,7 @@ formatter.scenario({
       "name": "@LoginFacebook"
     },
     {
-      "name": "@tag5"
+      "name": "@tag4"
     }
   ]
 });
@@ -78,7 +78,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter the jonathan.regan58@yahoo.com and Jregan58@_ on Facebook Login Page in Bahasa Indonesia",
+  "name": "User enter the hahahihi@gmail.com and abcdefgh on Facebook Login Page in Bahasa Indonesia",
   "keyword": "When "
 });
 formatter.match({
@@ -98,11 +98,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is successfully logged in on Facebook in Bahasa Indonesia",
+  "name": "User is directed to captcha verification page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginSteps.user_is_successfully_logged_in_on_facebook_in_bahasa_indonesia()"
+  "location": "LoginSteps.user_is_directed_to_captcha_verification_page()"
 });
 formatter.result({
   "status": "passed"

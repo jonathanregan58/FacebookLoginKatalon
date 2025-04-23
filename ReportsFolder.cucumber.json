@@ -3,19 +3,19 @@
     "line": 27,
     "elements": [
       {
-        "line": 79,
-        "name": "User menginputkan email yang ada dan password yang benar",
+        "line": 66,
+        "name": "User menginputkan email yang ada dan password yang salah",
         "description": "",
-        "id": "login-facebook;user-menginputkan-email-yang-ada-dan-password-yang-benar;;2",
+        "id": "login-facebook;user-menginputkan-email-yang-ada-dan-password-yang-salah;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8457213900,
+              "duration": 11978037000,
               "status": "passed"
             },
-            "line": 72,
+            "line": 57,
             "name": "User is on Facebook Login Page in Bahasa Indonesia",
             "match": {
               "location": "LoginSteps.user_is_on_facebook_login_page_in_bahasa_indonesia()"
@@ -24,20 +24,20 @@
           },
           {
             "result": {
-              "duration": 612943300,
+              "duration": 714238900,
               "status": "passed"
             },
-            "line": 73,
-            "name": "User enter the jonathan.regan58@yahoo.com and Jregan58@_ on Facebook Login Page in Bahasa Indonesia",
+            "line": 58,
+            "name": "User enter the hahahihi@gmail.com and abcdefgh on Facebook Login Page in Bahasa Indonesia",
             "match": {
               "arguments": [
                 {
-                  "val": "jonathan.regan58@yahoo.com",
+                  "val": "hahahihi@gmail.com",
                   "offset": 15
                 },
                 {
-                  "val": "Jregan58@_",
-                  "offset": 46
+                  "val": "abcdefgh",
+                  "offset": 38
                 }
               ],
               "location": "LoginSteps.user_enter_the_and_on_facebook_login_page_in_bahasa_indonesia(String,String)"
@@ -46,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 248554800,
+              "duration": 289070500,
               "status": "passed"
             },
-            "line": 74,
+            "line": 59,
             "name": "User click the Log in button on Facebook Login Page in Bahasa Indonesia",
             "match": {
               "location": "LoginSteps.user_click_the_log_in_button_on_facebook_login_page_in_bahasa_indonesia()"
@@ -58,13 +58,13 @@
           },
           {
             "result": {
-              "duration": 5354350900,
+              "duration": 9121371300,
               "status": "passed"
             },
-            "line": 75,
-            "name": "User is successfully logged in on Facebook in Bahasa Indonesia",
+            "line": 62,
+            "name": "User is directed to captcha verification page",
             "match": {
-              "location": "LoginSteps.user_is_successfully_logged_in_on_facebook_in_bahasa_indonesia()"
+              "location": "LoginSteps.user_is_directed_to_captcha_verification_page()"
             },
             "keyword": "Then "
           }
@@ -74,7 +74,7 @@
             "name": "@LoginFacebook"
           },
           {
-            "name": "@tag5"
+            "name": "@tag4"
           }
         ]
       }

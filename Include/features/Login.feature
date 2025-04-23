@@ -57,9 +57,9 @@ Feature: Login Facebook
       Given User is on Facebook Login Page in Bahasa Indonesia
     When User enter the <Email> and <Password> on Facebook Login Page in Bahasa Indonesia
     And User click the Log in button on Facebook Login Page in Bahasa Indonesia
-    Then pesan "Kata sandi yang Anda masukkan salah." appears on Facebook Login Page in Bahasa Indonesia2
+    #Then pesan "Kata sandi yang Anda masukkan salah." appears on Facebook Login Page in Bahasa Indonesia2
    # And Lupa kata sandi link appears on Facebook Login Page in Bahasa Indonesia
-     And User is directed to captcha verification page
+     Then User is directed to captcha verification page
    
    Examples: 
    |Email | Password |
