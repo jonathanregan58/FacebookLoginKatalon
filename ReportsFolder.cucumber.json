@@ -1,0 +1,98 @@
+[
+  {
+    "line": 27,
+    "elements": [
+      {
+        "line": 79,
+        "name": "User menginputkan email yang ada dan password yang benar",
+        "description": "",
+        "id": "login-facebook;user-menginputkan-email-yang-ada-dan-password-yang-benar;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8457213900,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User is on Facebook Login Page in Bahasa Indonesia",
+            "match": {
+              "location": "LoginSteps.user_is_on_facebook_login_page_in_bahasa_indonesia()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 612943300,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User enter the jonathan.regan58@yahoo.com and Jregan58@_ on Facebook Login Page in Bahasa Indonesia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jonathan.regan58@yahoo.com",
+                  "offset": 15
+                },
+                {
+                  "val": "Jregan58@_",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginSteps.user_enter_the_and_on_facebook_login_page_in_bahasa_indonesia(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 248554800,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User click the Log in button on Facebook Login Page in Bahasa Indonesia",
+            "match": {
+              "location": "LoginSteps.user_click_the_log_in_button_on_facebook_login_page_in_bahasa_indonesia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5354350900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User is successfully logged in on Facebook in Bahasa Indonesia",
+            "match": {
+              "location": "LoginSteps.user_is_successfully_logged_in_on_facebook_in_bahasa_indonesia()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFacebook"
+          },
+          {
+            "name": "@tag5"
+          }
+        ]
+      }
+    ],
+    "name": "Login Facebook",
+    "description": "",
+    "id": "login-facebook",
+    "keyword": "Feature",
+    "uri": "Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@LoginFacebook",
+        "type": "Tag",
+        "location": {
+          "line": 26,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
